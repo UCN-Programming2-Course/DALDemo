@@ -16,7 +16,7 @@ class EmployeeDaoTests {
 	@Test
 	void readEmployeeTest() {
 
-		EmployeeDao dao = new EmployeeDaoImpl(dbConnection);
+		EmployeeDao dao = new EmployeeDaoImpl(dbConnection); // NOTE! This is tight coupled, use Factory Pattern instead
 
 		List<Employee> test = dao.Read();
 
