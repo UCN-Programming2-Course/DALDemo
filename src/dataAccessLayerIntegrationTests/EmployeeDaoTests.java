@@ -4,10 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
-import org.junit.FixMethodOrder;
 import org.junit.jupiter.api.Test;
-import org.junit.runners.MethodSorters;
-
 import dataAccessLayer.ConcreteEmployeeDao;
 import dataAccessLayer.EmployeeDao;
 import model.Employee;

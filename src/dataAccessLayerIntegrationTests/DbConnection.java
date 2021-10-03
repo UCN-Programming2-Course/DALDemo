@@ -6,6 +6,11 @@ import java.sql.SQLException;
 import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
 import dataAccessLayer.DataContext;
 
+/*
+ * Client specific implementation of the DataContext 
+ * interface that should point to a test database
+ * 
+ */
 public class DbConnection implements DataContext{
 
 	private static final String serverName = "localhost\\sqlexpress";
