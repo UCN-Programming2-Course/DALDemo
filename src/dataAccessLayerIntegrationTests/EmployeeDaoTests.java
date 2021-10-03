@@ -12,7 +12,6 @@ import dataAccessLayer.ConcreteEmployeeDao;
 import dataAccessLayer.EmployeeDao;
 import model.Employee;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class EmployeeDaoTests {
 
 	DbConnection dbConnection = new DbConnection();
