@@ -9,11 +9,11 @@ import java.util.List;
 
 import model.Employee;
 
-public class ConcreteEmployeeDao implements EmployeeDao {
+public class EmployeeDaoImpl implements EmployeeDao {
 
 	private DataContext dataContext;
 
-	public ConcreteEmployeeDao(DataContext dataContext) {
+	public EmployeeDaoImpl(DataContext dataContext) {
 		this.dataContext = dataContext;
 
 	}

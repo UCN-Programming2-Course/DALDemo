@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import dataAccessLayer.ConcreteEmployeeDao;
+import dataAccessLayer.EmployeeDaoImpl;
 import dataAccessLayer.EmployeeDao;
 import model.Employee;
 
@@ -16,7 +16,7 @@ class EmployeeDaoTests {
 	@Test
 	void readEmployeeTest() {
 
-		EmployeeDao dao = new ConcreteEmployeeDao(dbConnection);
+		EmployeeDao dao = new EmployeeDaoImpl(dbConnection);
 
 		List<Employee> test = dao.Read();
 
