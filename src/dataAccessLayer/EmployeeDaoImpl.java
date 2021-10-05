@@ -9,7 +9,7 @@ import java.util.List;
 
 import model.Employee;
 
-public class EmployeeDaoImpl implements EmployeeDao { // NOTE! This can be package-private if using the Factory Pattern
+class EmployeeDaoImpl implements EmployeeDao { // NOTE! This can be package-private if using the Factory Pattern
 
 	private DataContext dataContext;
 
